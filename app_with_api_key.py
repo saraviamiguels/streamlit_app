@@ -1,15 +1,3 @@
-"""
-Watchlist Explorer — Step 7 version: real prices behind an API key.
-
-Needs .streamlit/secrets.toml containing:
-    ALPHAVANTAGE_API_KEY = "your-key"
-
-Free key (instant, no card): alphavantage.co/support/#api-key
-Free tier: 25 requests/day, 5/minute — one request per ticker, so keep the list short.
-
-Run it with:   streamlit run app.py
-"""
-
 import pandas as pd
 import plotly.express as px
 import requests
