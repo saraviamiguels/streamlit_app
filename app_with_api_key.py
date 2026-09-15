@@ -1,5 +1,4 @@
 import pandas as pd
-
 import plotly.express as px
 import requests
 import streamlit as st
@@ -142,5 +141,4 @@ st.download_button(
     file_name="watchlist.csv",
     mime="text/csv",
 )
-
 
